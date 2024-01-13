@@ -4,7 +4,9 @@ This repository contains a react tasks app that uses [tasksAPI](https://github.c
 # Usage
 Refer taskAPI and deploy the backend [tasksAPI](https://github.com/vinayak5002/tasksAPI) in your local machine 
 
-Clone this repo and run `npm start` to deploy react development server to develop
+Clone this repo and run `npm install` to setup the project
+
+And run `npm start` to deploy react development server to develop
 
 # Features
 ## Tasks
