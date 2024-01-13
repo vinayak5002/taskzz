@@ -1,0 +1,43 @@
+#filCard{
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#txt{
+    margin-left: 10px;
+    resize: none;
+}
+
+#radButton{
+    margin-left: 2px;
+}
+
+#radBtns{
+    margin-top: 2px;
+}
+
+#mr-l{
+    margin-right: 5px;
+}
+
+.btn{
+    height: 100%;
+    width: 75px;
+    background-color: rgb(146, 1, 146);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
