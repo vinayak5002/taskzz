@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Taskzz
+This repository contains a react tasks app that uses [tasksAPI](https://github.com/vinayak5002/tasksAPI) for backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Usage
+Refer taskAPI and deploy the backend [tasksAPI](https://github.com/vinayak5002/tasksAPI) in your local machine 
 
-## Available Scripts
+Clone this repo and run `npm start` to deploy react development server to develop
 
-In the project directory, you can run:
+# Features
+## Tasks
+By default, page shows all tasks in the server
+![image](https://github.com/vinayak5002/taskzz/assets/82216732/84297754-dfd4-489e-b49b-c56e0a320307)
 
-### `npm start`
+## New task
+We can create a new task by entering the name, assignee, project in the form on right hind side
+![image](https://github.com/vinayak5002/taskzz/assets/82216732/c3f0b516-d8f5-404e-a5a5-54c7b03b88e5)
+![image](https://github.com/vinayak5002/taskzz/assets/82216732/eb64309d-6b5a-4c78-9def-79aa31189f9d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deleting task
+Delete the task by clicking on red dustbin icon
+![image](https://github.com/vinayak5002/taskzz/assets/82216732/a6249970-a489-41d7-8827-47c843f8c42a)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Searching
+Search the tasks by 2 criteria
+### By name
+To search by name enter name of the task in search feild, check name radio button and fliter button
+![image](https://github.com/vinayak5002/taskzz/assets/82216732/5b9ba48a-7cf2-4646-9b40-0d3609841150)
 
-### `npm test`
+### By Assignee
+To search by name enter name of the assignee in search feild, check assignee radio button and fliter button
+![image](https://github.com/vinayak5002/taskzz/assets/82216732/8f4aad17-b129-4451-9cad-a886fc6f2028)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To get all the tasks back, click on all button
